@@ -1,0 +1,11 @@
+# GodPets: any mob with a name tag (any custom name) can't take damage.
+# Players are never protected.
+
+# Let /kill remove named mobs anyway, so you can still get rid of one.
+allow-kill-command: true
+
+# Let named mobs still die if they fall into the void.
+allow-void: true
+
+# Worlds where named mobs are NOT protected.
+disabled-worlds: []

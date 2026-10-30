@@ -1,0 +1,18 @@
+name: GodPets
+version: '${version}'
+main: net.kalob.GodPets.GodPetsPlugin
+api-version: '26.3'
+description: Anything with a name tag can't die.
+author: PorterK
+website: https://github.com/PorterK/GodPets
+
+commands:
+  godpets:
+    description: GodPets info and reload
+    usage: /<command> [reload]
+    aliases: [gp]
+
+permissions:
+  godpets.admin:
+    description: Reload the GodPets config
+    default: op
